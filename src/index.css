@@ -1,13 +1,290 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.All-Pages{
+  font-family: 'Ubuntu', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.welcome-section1{
+  background-image: url("https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.welcome-section2{
+  background-image: url("https://images.unsplash.com/photo-1562575214-da9fcf59b907?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome-section3{
+  background-image: url("https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome-section4{
+  background-image: url("https://images.unsplash.com/photo-1522071901873-411886a10004?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome-section5{
+  background-image: url("https://images.unsplash.com/photo-1609372697655-65d874e3fe60?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome-Bottom{
+  background-color: rgb(18,20,40);
+  
+}
+
+.consumer-section1{
+  background-image: url("https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.category-clothing{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1544&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.category-babyCare{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("https://images.unsplash.com/photo-1613731587985-ea81ea4b3bdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+.category-personalCare{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("https://images.unsplash.com/photo-1512303385664-9f4339ecc3f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1325&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+.category-beverage{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("https://images.unsplash.com/photo-1496318447583-f524534e9ce1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1834&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+.category-Food{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.category-Alcohol{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("https://images.unsplash.com/photo-1525268323446-0505b6fe7778?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.consumer-meeting-img{
+  background-image: url("https://images.unsplash.com/photo-1490735891913-40897cdaafd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.media-section1{
+  background-image: url("https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.media-img1{
+  background-image: url("https://images.unsplash.com/photo-1604719312566-8912e9227c6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.media-img2{
+  background-image: url("https://images.unsplash.com/photo-1528642474498-1af0c17fd8c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+.media-img3{
+  background-image: url("https://images.unsplash.com/photo-1589927986089-35812388d1f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+
+.slider{
+  border: 2px solid #eee;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  
+}
+
+ .slide-track{
+  display: block;
+  width: 200%;
+  margin: 70px 0;
+  position: absolute;
+  animation: marquee 20s linear infinite;
+  
+}
+
+span {
+  float: left;
+  width: 50%;
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+.testingSoftwaresection1 {
+background: rgb(63,255,0);
+background: linear-gradient(267deg, rgba(63,255,0,1) 0%, rgba(249,249,249,1) 37%);
+}
+
+@media (max-width: 1100px) {
+
+  .title-mobile{
+  margin-left: 0px;
+  }
+ 
+  .button-book{
+    display: none;
+  }
+
+ 
+  .nav-items-mobile {
+    
+    margin-left: 2rem;
+  }
+
+  .welcome-section1-title{
+    font-size: 3rem;
+    padding: 1rem;
+    padding-top: 10rem;
+
+  }
+
+  .welcome-section2-mobile{
+    text-align: center;
+   
+  }
+
+  .grid-mobile{
+    grid-template-columns: auto;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+  }
+
+
+
+  .margin-mobile{
+   text-align: center;
+   width: 100vw;
+   height: 100vh;
+   padding: 1rem;
+  }
+
+  .button-mobile{
+    margin-left: 0;
+  }
+
+  .welcome-section2-title{
+    font-size: 3rem;
+    padding: 1rem;
+
+    
+  }
+
+  .welcome-section2-body-mobile{
+    font-size: 1rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    height: auto;
+    
+  }
+
+  .dont-display{
+    display: none;
+  }
+
+  .heading-icon{
+  margin: auto;
+  }
+
+  .brand-icons-mobile{
+   padding: 1rem;
+  }
+
+  .market-intel-icon{
+   font-size: 2.5rem;
+  }
+
+  .market-intel-text{
+  font-size: 1rem;
+  }
+
+  .category-expertise-mobile{
+    grid-template-columns: auto;
+  }
+
+  .market-solution-image{
+   margin-top: 0;
+  }
+
+  .market-solution-div{
+    margin-top: 0;
+  }
+
+  .retail-media-mobile{
+    font-size: 1rem;
+    margin-left: -130px;
+    padding: 5rem;
+  }
+
+  .slider-mobile{
+    padding: 5rem;
+  }
+
+  .insights-image{
+   height: 200px;
+  }
+
+  .media-carousel-mobile{
+    font-size: 1rem;
+    padding: 0;
+  }
+
+  .carousel-mobile{
+    padding-bottom: 0rem;
+  }
+
+ .challenge-markets-mobile{
+ font-size: 1.5rem;
+ }
+
+ .challenge-markets-margin-mobile{
+ margin: 0;
+ }
+
+ .challenge-mobile-padding{
+   padding-right: 0px;
+ }
+}
+
